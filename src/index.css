@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --color-bg: #ffffff;
+        --color-text: #000000;
+        --color-primary: #ffffff;
+        --color-secondary: #cccccc;
+    }
+    *{
+    @apply transition-colors duration-500 ease-in-out;
+  }
+}
+
+.theme-dark {
+  --color-bg: #1a202c;
+  --color-text: #ffffff;
+  --color-primary: #a9d6e5;
+  --color-secondary: #013a63;
+}
